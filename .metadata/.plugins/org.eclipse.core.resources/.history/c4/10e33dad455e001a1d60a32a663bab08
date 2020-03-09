@@ -1,0 +1,37 @@
+package controllers;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import entity.Person;
+
+@Controller
+public class Controllerss {
+	@RequestMapping("/result")
+	public ModelAndView display(@ModelAttribute("st") Person st) {
+		Map<String, String> m = new HashMap<String, String>();
+		ModelMap mp = new ModelMap();
+		m.put("msg", "ramesh");
+		mp.addAttribute(st);
+		mp.addAllAttributes(m);
+		return new ModelAndView("result", mp);
+	}
+
+	@RequestMapping("/listj")
+	public ModelAndView display(Model m) {
+		List<Person> l = Arrays.asList(new Person("ramesh", 123, "mca"), new Person("ram", 102, "mba"),
+				new Person("rammi", 235, "msc"));
+		m.addAllAttributes(l);
+		return new ModelAndView("listj");
+	}
+
+}

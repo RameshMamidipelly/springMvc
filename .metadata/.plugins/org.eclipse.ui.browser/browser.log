@@ -1,0 +1,27 @@
+
+Mar 07, 2020 21:27:44.48 NEW SESSION
+Mar 07, 2020 21:27:44.48 [0307/212744.475:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:27:44.48 [0307/212744.485:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:27:44.48 [0307/212744.485:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:37:44.34 [0307/213744.344:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:37:44.34 [0307/213744.345:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:37:44.34 [0307/213744.347:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:37:44.35 [0307/213744.350:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:37:44.35 [0307/213744.351:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:37:44.35 [0307/213744.353:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:42:33.29 [5548:4836:0307/214233.295:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Mar 07, 2020 21:42:34.22 [5548:4724:0307/214234.229:ERROR:gcm_store_impl.cc(631)] LevelDB remove failed: NotFound: 
+Mar 07, 2020 21:42:34.23 [5548:4836:0307/214234.229:ERROR:mcs_client.cc(528)] GCM Update failed!
+Mar 07, 2020 21:42:44.61 [0307/214244.616:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:42:44.61 [0307/214244.617:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 07, 2020 21:42:44.61 [0307/214244.617:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 08, 2020 24:11:27.50 [0308/001127.502:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 08, 2020 24:11:27.50 [0308/001127.502:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 08, 2020 24:11:27.50 [0308/001127.502:ERROR:crash_report_database_win.cc(469)] failed to stat report
+Mar 08, 2020 24:11:31.07 [5548:4836:0308/001131.064:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Mar 08, 2020 24:11:36.37 [5548:2464:0308/001136.372:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 08, 2020 24:11:38.22 [5548:4836:0308/001138.221:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 08, 2020 24:11:51.93 [5548:4836:0308/001151.937:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -21
+Mar 08, 2020 24:11:54.16 [5548:4836:0308/001154.163:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -21
+Mar 08, 2020 24:12:02.25 [5548:5436:0308/001202.259:ERROR:gcm_store_impl.cc(631)] LevelDB remove failed: NotFound: 
+Mar 08, 2020 24:12:02.26 [5548:4836:0308/001202.260:ERROR:mcs_client.cc(528)] GCM Update failed!

@@ -1,0 +1,45 @@
+package entity;
+
+import java.util.List;
+
+public class Person {
+	private String name;
+	private int id;
+	private String cor;
+
+	private List skils;
+	
+	
+	
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", id=" + id + ", cor=" + cor + ", skils=" + skils + "]";
+	}
+	public List getSkils() {
+		return skils;
+	}
+	public void setSkils(List skils) {
+		this.skils = skils;
+	}
+	public String getCor() {
+		return cor;
+	}
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+
+}

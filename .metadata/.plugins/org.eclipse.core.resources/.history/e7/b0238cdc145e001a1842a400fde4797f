@@ -1,0 +1,24 @@
+package entity;
+
+import java.util.List;
+
+public class Person {
+
+	private List names;
+
+	@Override
+	public String toString() {
+		return "Person [names=" + names + "]";
+	}
+
+	public List getNames() {
+		return names;
+	}
+
+	public void setNames(List names) {
+		this.names = names;
+	}
+	
+	
+
+}

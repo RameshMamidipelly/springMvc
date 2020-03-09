@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form:form action="./searchId" modelAttribute="student">
+		Id:<form:input path="id" placeholder="enter student id"/><br/>
+		<form:button>click</form:button>
+	</form:form>
+	
+<table  border="2" align="center" width="70%" cellpadding="2">
+<tr><th  colspan="5"><b>Students Information</b></th></tr>
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>course</th>
+<th>Edit</th>
+<th>Delete</th>
+</tr>
+<c:forEach var="ls" items="${stu}">
+<tr align="center">
+<td>${ls.id}</td>
+<td>${ls.name}</td>
+<td>${ls.course}</td>
+<td><a href="./edit/${ls.id}">edit</a></td>
+<td><a href="./delete/${ls.id}">delete</a></td>
+</tr>
+</c:forEach>
+<tr><th  colspan="5"><a href="./insertpage"><b>Add Student</b></a></th></tr>
+</table>
+</body>
+</html>

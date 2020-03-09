@@ -1,0 +1,23 @@
+package controllers;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import bean.Student;
+
+@Controller
+public class Controller2 {
+	@RequestMapping("/allStudents")
+	public ModelAndView getAll(Model m) {
+		List<Student> l = dao.getAllStudents();
+		System.out.println(l);
+		m.addAttribute("stu", l);
+		System.out.println(m);
+		String ss="result";
+		return new ModelAndView(ss);
+	}
+}
